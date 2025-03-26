@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://dxv1oit1ojfk5"
+path="res://.godot/imported/hangouts.dialogue-8cb447b0de2953c7542da2819f56c016.tres"
+
+[deps]
+
+source_file="res://hangouts.dialogue"
+dest_files=["res://.godot/imported/hangouts.dialogue-8cb447b0de2953c7542da2819f56c016.tres"]
+
+[params]
+
+defaults=true

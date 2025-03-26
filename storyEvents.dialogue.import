@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://d1hd8oxv5vym6"
+path="res://.godot/imported/storyEvents.dialogue-68e336ec7991ab7f578da12dc670ed63.tres"
+
+[deps]
+
+source_file="res://storyEvents.dialogue"
+dest_files=["res://.godot/imported/storyEvents.dialogue-68e336ec7991ab7f578da12dc670ed63.tres"]
+
+[params]
+
+defaults=true

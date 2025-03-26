@@ -1,0 +1,29 @@
+~ EXIT
+=> END!
+
+~ c32
+System: This is the dialogue loader. 
+System: from here, it will end.
+Among us: Sus
+Nathan: Choose a Response...
+- Option 1
+	Nathan: You chose option 1
+- Option 2
+	Nathan: You chose option 2
+Nathan: Goodbye.
+=> END
+
+~ s0
+=> END!
+
+~ s1
+=> EXIT
+
+~ s2
+=> EXIT
+
+~ s3
+=> EXIT
+
+~ sE
+=> EXIT
