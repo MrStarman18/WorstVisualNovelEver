@@ -5,15 +5,18 @@ using DialogueManagerRuntime;
 public partial class cutscene : Node2D
 {
 	game_state gameState;
-	[Export] public Resource DialogueResource;	// Set in editor
+	[Export] public Resource Hangouts, Story;	// Set in editor
 	[Export] string scene;
 	
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
-		gameState = GetNode<game_state>("/root/game_state");
+		gameState = GetNode<game_state>("/root/GameState");
 		scene = gameState.GetCurScene();
-		DialogueManager.ShowDialogueBalloon(DialogueResource, scene);
+		if (scene[0] == 's')
+			DialogueManager.ShowDialogueBalloon(Story, scene);
+		else if (scene[0] == 'h')
+			DialogueManager.ShowDialogueBalloon(Hangouts, scene);
 	}
 	
 	
@@ -25,7 +28,8 @@ public partial class cutscene : Node2D
 	public void toNextScene()
 	{
 	}
-
+		
+	public void ExitGame() { GetTree().Quit(); }
 }
 
 

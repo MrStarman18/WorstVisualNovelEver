@@ -14,16 +14,80 @@ Nathan: Goodbye.
 => END
 
 ~ s0
+Plane: *Crashes*
+All: Ah!
+Plane: *Continues crashing*
+-: Pretend like there's a dramatic fade to black here.
+Y/N: My name is Y/N. I guess I am living on this island now.
+Y/N: I think the world ends in 3 days or something?? I can't die bitchless.
+Y/N: I can get to know these guys. They all look like they want me kinda bad lol.
+Y/N: Who should I talk to?
+- Option 1
+	Y/N: I'll talk to Option 1.
+	do gameState.ToNextScene(0)
+- Option 2
+	Y/N: I'll talk to Option 2.
+	do gameState.ToNextScene(1)
 => END!
 
 ~ s1
+Y/N: A whole day went by! They were..interesting to hang out with. Maybe I should spend more time with them?
+Y/N: Anyway, the world ends in 2 days. No time to sit around thinking. I have bitches to get.
+Y/N: Who should I talk to?
+- Option 1
+	Y/N: I'll talk to Option 1.
+	do gameState.ToNextScene(0)
+- Option 2
+	Y/N: I'll talk to Option 2.
+	do gameState.ToNextScene(1)
 => EXIT
 
 ~ s2
+Y/N : Just got the worst sleep of my life. Hopefully tomorrow I get to sleep *with* somebody.
+Y/N: The world ends tomorrow. Better seal the deal before I end up bitchless.
+Y/N: Who should I talk to?
+- Option 1
+	Y/N: I'll talk to Option 1.
+	do gameState.ToNextScene(0)
+- Option 2
+	Y/N: I'll talk to Option 2.
+	do gameState.ToNextScene(1)
 => EXIT
 
-~ s3
+# Endings
+~ s3	
+# No bitches.
+Y/N: The third day came. 
+Y/N: I really wanted to snuggle somebody and wait for the world to end or whatever, but I remembered.
+Y/N: I was bitchless. Nice going, Y/N.
+Y/N: We all sat around and waited for something to happen.
+Y/N: Nothing happened.
+Y/N: This game sucks.
+do ExitGame()
 => EXIT
 
-~ sE
+~ s30	
+# Bitch: The car!
+Y/N: The third day came. 
+Car: Y/N! I want you CAR-nally! Please fill my exhaust pipe before the world ends!
+Y/N: YIPPEE!!!
+Y/N: I inserted my cylinder into the car's exhaust pipe.
+Y/N: ...
+Y/N: The car was still running! I got third degree burns on my cylinder!
+Y/N: I screamed and ran into the ocean.
+Y/N: When I turned around, the island was gone.
+Y/N: Great, I guess I'm drowning then. This sucks.
+do ExitGame()
+=> EXIT
+
+~ s31	
+# No bitches.
+Y/N: The third day came. 
+Option 2: I am Option 2. Yes that is my government name.
+Y/N: You're #1 in my heart!
+Y/N: ...
+Y/N: We had sex. It was kinda mid to be honest. 
+Y/N: It was so mid that I died actually.
+Y/N: I wonder what happens after death?
+do ExitGame()
 => EXIT

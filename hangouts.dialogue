@@ -9,3 +9,35 @@ Nathan: Here are some choices.
 - End the conversation => END
 Nathan: For more information see the online documentation.
 => END
+
+~ h00
+System: Hangout 0.
+do gameState.ToNextScene(-1)
+=> END
+
+~ h01
+System: Hangout 1.
+do gameState.ToNextScene(-1)
+=> END
+
+~ h02
+System: Hangout 2.
+do gameState.ToNextScene(-1)
+=> END
+
+~ h10
+System: Hangout 0.
+do gameState.ToNextScene(-1)
+=> END
+
+~ h11
+System: Hangout 1.
+do gameState.ToNextScene(-1)
+=> END
+
+~ h12
+System: Hangout 2.
+do gameState.ToNextScene(-1)
+=> END
+
+

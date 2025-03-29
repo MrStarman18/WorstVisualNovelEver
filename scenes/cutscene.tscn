@@ -1,9 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://dg40iv8ksqg2g"]
+[gd_scene load_steps=4 format=3 uid="uid://dg40iv8ksqg2g"]
 
 [ext_resource type="Script" path="res://scenes/cutscene.cs" id="1_b8a5j"]
 [ext_resource type="Resource" uid="uid://dxv1oit1ojfk5" path="res://hangouts.dialogue" id="2_ilkqp"]
+[ext_resource type="Resource" uid="uid://d1hd8oxv5vym6" path="res://storyEvents.dialogue" id="3_j6eoh"]
 
 [node name="cutscene" type="Node2D"]
 script = ExtResource("1_b8a5j")
-DialogueResource = ExtResource("2_ilkqp")
+Hangouts = ExtResource("2_ilkqp")
+Story = ExtResource("3_j6eoh")
 scene = "c32"
