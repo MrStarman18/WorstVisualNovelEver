@@ -13,6 +13,16 @@ Nathan: Choose a Response...
 Nathan: Goodbye.
 => END
 
+~ sSelect
+Y/N: Who should I talk to?
+- Option 1
+	Y/N: I'll talk to Option 1.
+	do gameState.ToNextScene(0)
+- Option 2
+	Y/N: I'll talk to Option 2.
+	do gameState.ToNextScene(1)
+=> END
+
 ~ s0
 Plane: *Crashes*
 All: Ah!
@@ -33,26 +43,12 @@ Y/N: Who should I talk to?
 ~ s1
 Y/N: A whole day went by! They were..interesting to hang out with. Maybe I should spend more time with them?
 Y/N: Anyway, the world ends in 2 days. No time to sit around thinking. I have bitches to get.
-Y/N: Who should I talk to?
-- Option 1
-	Y/N: I'll talk to Option 1.
-	do gameState.ToNextScene(0)
-- Option 2
-	Y/N: I'll talk to Option 2.
-	do gameState.ToNextScene(1)
-=> EXIT
+=> sSelect
 
 ~ s2
 Y/N : Just got the worst sleep of my life. Hopefully tomorrow I get to sleep *with* somebody.
 Y/N: The world ends tomorrow. Better seal the deal before I end up bitchless.
-Y/N: Who should I talk to?
-- Option 1
-	Y/N: I'll talk to Option 1.
-	do gameState.ToNextScene(0)
-- Option 2
-	Y/N: I'll talk to Option 2.
-	do gameState.ToNextScene(1)
-=> EXIT
+=> sSelect
 
 # Endings
 ~ s3	
