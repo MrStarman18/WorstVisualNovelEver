@@ -45,6 +45,8 @@ Y/N:  I can’t believe I’m finally on my way to my new school, Monster’s Un
 	Y/N: Finally, I can get DAD off my back. He’s been bugging me about doing something with my life ever since MOM died. 
 - Brainrot
 	Y/N: After all these months of sigma-maxxing and glazing the opps, I’ll finally be able to crash out with the huzz. 
+do LoadBeachImage("fall")
+do HidePlane()
 -: You look out to the wing of the plane, where half of it is now gone. The engine catches fire. The plane begins to nosedive. You panic and yell:
 - Scared
 	Y/N: Oh no, what do we do?!
@@ -54,12 +56,13 @@ Y/N:  I can’t believe I’m finally on my way to my new school, Monster’s Un
 	Y/N: Chat, we’re cooked!
 Plane: *Crashes*
 All: Ah!
+do LoadBeachImage("crash")
 Plane: *Continues crashing*
 -: You black out as the air thins.
-do RevealBeach()
 -: You suddenly jolt up, covered in sand and slightly burnt. I guess you're living on this island now.
 -: You look around and see the plane, buried in the sand and smoldering. You get up, and check to see if you are the only survivor. 
 Y/N: I think the world ends in 3 days or something?? I can't die maidenless.
+do LoadBeachImage("beach")
 Y/N: Anybody out there? Hello?
 -: You spot several passengers walking, or driving, around the wreckage. You see the TUMBLR SEXYMAN, the DISCORD MOD, the PREPPY FURRY, the CAR WITH GOOGLY EYES, the ANIME WEREWOLF TIKTOK BIKER DILF, and a NORMAL MAN.
 Y/N: I can get to know these guys. They all look like they want me kinda bad lol.

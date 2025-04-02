@@ -34,7 +34,25 @@ public partial class cutscene : Node2D
 		
 	public void ExitGame() { GetTree().Quit(); }
 	
-	public void RevealBeach() { GetNode<Sprite2D>("Beach").Visible = true; }
+	public void LoadBeachImage(string image) 
+	{
+		GetNode<Sprite2D>("Beach").Visible = true;
+		switch (image)
+		{
+			case "beach":
+				GetNode<Sprite2D>("Beach").Texture = GD.Load("res://art/backgroundvisnov1.png") as Texture2D;
+			break;
+			case "crash":
+				GetNode<Sprite2D>("Beach").Texture = GD.Load("res://art/PlaneCrash2_Zach.png") as Texture2D;
+			break;
+			case "fall":
+				GetNode<Sprite2D>("Beach").Texture = GD.Load("res://art/PlaneCrash_Zach.png") as Texture2D;
+			break;
+		}
+		return;
+		
+	}
+	public void HidePlane() { GetNode<Sprite2D>("Plane").Visible = false; }
 }
 
 
