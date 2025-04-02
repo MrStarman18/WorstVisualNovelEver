@@ -9,3 +9,7 @@ script = ExtResource("1_b8a5j")
 Hangouts = ExtResource("2_ilkqp")
 Story = ExtResource("3_j6eoh")
 scene = "c32"
+
+[node name="Foreground" type="CanvasLayer" parent="."]
+
+[node name="Background" type="Sprite2D" parent="."]
