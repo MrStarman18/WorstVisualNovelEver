@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://dg40iv8ksqg2g"]
+[gd_scene load_steps=5 format=3 uid="uid://dg40iv8ksqg2g"]
 
 [ext_resource type="Script" path="res://scenes/cutscene.cs" id="1_b8a5j"]
 [ext_resource type="Resource" uid="uid://dxv1oit1ojfk5" path="res://hangouts.dialogue" id="2_ilkqp"]
 [ext_resource type="Resource" uid="uid://d1hd8oxv5vym6" path="res://storyEvents.dialogue" id="3_j6eoh"]
+[ext_resource type="Texture2D" uid="uid://bwifsl4of3g8y" path="res://art/backgroundvisnov1.png" id="4_a7nd3"]
 
 [node name="cutscene" type="Node2D"]
 script = ExtResource("1_b8a5j")
@@ -12,4 +13,14 @@ scene = "c32"
 
 [node name="Foreground" type="CanvasLayer" parent="."]
 
-[node name="Background" type="Sprite2D" parent="."]
+[node name="Character" type="Sprite2D" parent="Foreground"]
+scale = Vector2(1.68668, 1.69271)
+
+[node name="Beach" type="Sprite2D" parent="."]
+scale = Vector2(1.68668, 1.69271)
+texture = ExtResource("4_a7nd3")
+centered = false
+
+[node name="Plane" type="Sprite2D" parent="."]
+z_index = -1
+scale = Vector2(1.68668, 1.69271)

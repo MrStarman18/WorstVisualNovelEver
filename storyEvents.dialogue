@@ -56,10 +56,10 @@ Plane: *Crashes*
 All: Ah!
 Plane: *Continues crashing*
 -: You black out as the air thins.
-
+do RevealBeach()
 -: You suddenly jolt up, covered in sand and slightly burnt. I guess you're living on this island now.
 -: You look around and see the plane, buried in the sand and smoldering. You get up, and check to see if you are the only survivor. 
-Y/N: I think the world ends in 3 days or something?? I can't die bitchless.
+Y/N: I think the world ends in 3 days or something?? I can't die maidenless.
 Y/N: Anybody out there? Hello?
 -: You spot several passengers walking, or driving, around the wreckage. You see the TUMBLR SEXYMAN, the DISCORD MOD, the PREPPY FURRY, the CAR WITH GOOGLY EYES, the ANIME WEREWOLF TIKTOK BIKER DILF, and a NORMAL MAN.
 Y/N: I can get to know these guys. They all look like they want me kinda bad lol.
@@ -68,12 +68,12 @@ Y/N: I can get to know these guys. They all look like they want me kinda bad lol
 
 ~ s1
 Y/N: A whole day went by! They were..interesting to hang out with. Maybe I should spend more time with them?
-Y/N: Anyway, the world ends in 2 days. No time to sit around thinking. I have bitches to get.
+Y/N: Anyway, the world ends in 2 days. No time to sit around thinking. I have maidens to get.
 => sSelect
 
 ~ s2
 Y/N : Just got the worst sleep of my life. Hopefully tomorrow I get to sleep *with* somebody.
-Y/N: The world ends tomorrow. Better seal the deal before I end up bitchless.
+Y/N: The world ends tomorrow. Better seal the deal before I end up maidenless.
 => sSelect
 
 # Endings
@@ -81,7 +81,7 @@ Y/N: The world ends tomorrow. Better seal the deal before I end up bitchless.
 # No bitches.
 Y/N: The third day came. 
 Y/N: I really wanted to snuggle somebody and wait for the world to end or whatever, but I remembered.
-Y/N: I was bitchless. Nice going, Y/N.
+Y/N: I was maidenless. Nice going, Y/N.
 Y/N: We all sat around and waited for something to happen.
 Y/N: Nothing happened.
 Y/N: This game sucks.

@@ -13,6 +13,9 @@ public partial class cutscene : Node2D
 	{
 		gameState = GetNode<game_state>("/root/GameState");
 		scene = gameState.GetCurScene();
+		
+		if (scene == "s0")
+			GetNode<Sprite2D>("Beach").Visible = false;
 		if (scene[0] == 's')
 			DialogueManager.ShowDialogueBalloon(Story, scene);
 		else if (scene[0] == 'h')
@@ -30,6 +33,8 @@ public partial class cutscene : Node2D
 	}
 		
 	public void ExitGame() { GetTree().Quit(); }
+	
+	public void RevealBeach() { GetNode<Sprite2D>("Beach").Visible = true; }
 }
 
 
