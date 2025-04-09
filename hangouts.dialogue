@@ -71,7 +71,8 @@ do gameState.ToNextScene(-1)
 => END
 
 ~ h40
-System: Hangout 0.
+-: You walk over to AXEL, who is leaning against the wreckage of the plane making tiktoks, updating his fans of what just went down. His rock hard abs, big pecs, big kawaii eyes, and his cowboy outfit all attract you to him. 
+-: His tail flicks behind him as he tries to post his tiktoks on his phone.
 do gameState.ToNextScene(-1)
 => END
 

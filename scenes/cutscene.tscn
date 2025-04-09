@@ -16,19 +16,22 @@ scene = "c32"
 [node name="Foreground" type="CanvasLayer" parent="."]
 
 [node name="Character" type="Sprite2D" parent="Foreground"]
-position = Vector2(896, 230)
+visible = false
+position = Vector2(896, 255)
 scale = Vector2(0.417, 0.249)
 texture = ExtResource("4_wtoes")
 
 [node name="Plane" type="Sprite2D" parent="."]
-z_index = 1
-scale = Vector2(0.289187, 0.227225)
+z_index = -1
+position = Vector2(0.578374, 0)
+scale = Vector2(0.292515, 0.229668)
 texture = ExtResource("5_48h3i")
 centered = false
-region_enabled = true
 
 [node name="Beach" type="Sprite2D" parent="."]
-z_index = -1
+z_index = 1
 scale = Vector2(1.68668, 1.69271)
 texture = ExtResource("4_a7nd3")
 centered = false
+
+[node name="Music" type="AudioStreamPlayer2D" parent="."]

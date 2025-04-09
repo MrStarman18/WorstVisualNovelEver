@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bqx0j0fb7w3s8"
+path="res://.godot/imported/End of World (Maiden Achieved).wav-5d4d9bd0e1613a039b2c513384bcaf09.sample"
+
+[deps]
+
+source_file="res://audio/End of World (Maiden Achieved).wav"
+dest_files=["res://.godot/imported/End of World (Maiden Achieved).wav-5d4d9bd0e1613a039b2c513384bcaf09.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=2
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

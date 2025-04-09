@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b58e8xq5lr238"
+path="res://.godot/imported/Character 2 (Discord Mod).wav-00a5b35e6993e3e82d88b7a11a50e19c.sample"
+
+[deps]
+
+source_file="res://audio/Character 2 (Discord Mod).wav"
+dest_files=["res://.godot/imported/Character 2 (Discord Mod).wav-00a5b35e6993e3e82d88b7a11a50e19c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=2
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

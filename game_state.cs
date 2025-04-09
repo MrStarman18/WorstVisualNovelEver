@@ -42,7 +42,7 @@ public partial class game_state : Node
 				curScene = $"s{curDay}";
 				else						// 
 				{
-					curScene = "s3";				// default ending cutscene.
+					curScene = "s3x";				// default ending cutscene.
 					for (int i = 0; i < timesHungout.Length; i++) {
 						if (timesHungout[i] >= 3) {				// If you hungout with anyone 3 times you get to fuck!!
 							curScene = $"s3{i}";
