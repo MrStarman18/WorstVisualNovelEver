@@ -73,6 +73,25 @@ do gameState.ToNextScene(-1)
 ~ h40
 -: You walk over to AXEL, who is leaning against the wreckage of the plane making tiktoks, updating his fans of what just went down. His rock hard abs, big pecs, big kawaii eyes, and his cowboy outfit all attract you to him. 
 -: His tail flicks behind him as he tries to post his tiktoks on his phone.
+Axel: Yo, what’s up, pup? Didn’t think I’d be lucky enough to wake up crash-landed on a deserted island, but hey, my engagement is gonna soar, unlike we did! Haha. *winks*
+Y/N: ...
+- Polite
+	Y/N: Really nice to meet you! How are you feeling? This is my first plane crash, but I think it’s going alright!
+- Honest
+	Y/N: If I didn’t see you or these guys here, I think I would have killed myself. Honestly, I still might. But at least we’re not on that stupid plane anymore. 
+- Brainrot
+	Y/N: stupid brainrot words
+-: Axel , taking a break from doomscrolling and slipping it into his leather jacket. 
+Axel: Nice to meet ya, Y/N. You know, this ain't my first time havin a near death experience. Last time, it was a police chase on my hot rod because I got into a fist fight down at the rodeo.
+Axel: But hey, nothing gets the views booming on twitter than a good ole fist fight? Yeehaw!(Axel cracks his knuckles and grins)
+Axel: Guess the crash means I gotta do a survival arc now. Gotta keep the content fresh. 
+-: Axel stretches, letting the ocean breeze ruffle his hair as he pulls a vape out of his pocket and exhales dramatically. The vape had a screen on it, and Axel began to scroll to look at himself on it. 
+Axel: Well, if we’re stuck here, we might as well enjoy the vibes together~. Have you ever been stranded before, pup?
+-: Axel gestures for you to sit next to him on the wreckage. The plane’s remains burn behind you, providing a strange sense of warmth and comfort. 
+Axel: C’monnnnn, take a load off. No use standing there like a damsel in distress, when we got nothing but time to be together. Maybe we’ll even make it out alive. Who knows? 
+Axel: I hope we do so I can start a podcast about being a werewolf in today’s society, it's a hard life.
+-: You and Axel sit in companionable silence and take in your surroundings. 
+-: Axel takes a few aesthetic selfies on his vape with the burning wreckage before eventually stretching and pumping iron, before heading off to find a good place to get some shut eye.
 do gameState.ToNextScene(-1)
 => END
 
@@ -97,6 +116,21 @@ do gameState.ToNextScene(-1)
 => END
 
 ~ h52
+System: Hangout 2.
+do gameState.ToNextScene(-1)
+=> END
+
+~ h60
+System: Hangout 0.
+do gameState.ToNextScene(-1)
+=> END
+
+~ h61
+System: Hangout 1.
+do gameState.ToNextScene(-1)
+=> END
+
+~ h62
 System: Hangout 2.
 do gameState.ToNextScene(-1)
 => END

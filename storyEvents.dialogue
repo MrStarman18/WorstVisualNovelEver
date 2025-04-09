@@ -70,19 +70,36 @@ Y/N: I can get to know these guys. They all look like they want me kinda bad lol
 => sSelect
 
 ~ s1
-Y/N: A whole day went by! They were..interesting to hang out with. Maybe I should spend more time with them?
+-: Sitting all by your lonesome, you realize you are not going to survive without getting close to someone. Loneliness is a killer! 
+-: You must make the most of every day, and increase your chances of finding a connection! How are you feeling?
+- Optimistic
+	Y/N: I hope Dad doesn’t worry, but...this should be fun! I love making new friends. And... I’ve always wanted to get really close to someone. Maybe even love someone. 
+	Y/N: Even though seventy-seven passengers have died and I won’t make it to school on time, this seems like the perfect opportunity! 
+- Rebellious
+	Y/N: Ugh, looks like I’ll have to put up with these freaks for a while. At least Dad won’t be able to reach me. The sooner I get off this REDACTED the better. 
+	Y/N: But, I guess it won’t hurt to find someone who can maybe understand. 
+- Brainrot
+	Y/N: Looks like I have to be the Rizzler. Turning on my level ten gyatt and pulling these fine shyts shouldn’t be too sus. Maybe at the end we can all bust it down sexual style, like John Pork.
 Y/N: Anyway, the world ends in 2 days. No time to sit around thinking. I have maidens to get.
 => sSelect
 
 ~ s2
-Y/N : Just got the worst sleep of my life. Hopefully tomorrow I get to sleep *with* somebody.
-Y/N: The world ends tomorrow. Better seal the deal before I end up maidenless.
+-: Waking up on the soft sands, you realize how badly you want to be held. Maybe that special someone has been in front of you the whole time?
+Y/N : I hope that-- Wait, who's talking to me?
+-: Gee, I'd love to tell you...but only if you spend time with me instead of those other guys >:3
+-: So, what do you say?
+- Spend time with -
+	-: Yay!! Yay!! *glomps*
+	do gameState.ToNextScene(6)
+- Hang out with someone else
+	-: I see.. Another has stolen your heart? Then I'll be right here...totally not watching you ;3
+Y/N: That was weird. Anyway, the world ends tomorrow. Better seal the deal before I end up maidenless.
 => sSelect
 
 # Endings
 ~ s3x	
 # No bitches.
-Y/N: The third day came. 
+Y/N: The third day came. I didn't.
 Y/N: I really wanted to snuggle somebody and wait for the world to end or whatever, but I remembered.
 Y/N: I was maidenless. Nice going, Y/N.
 Y/N: We all sat around and waited for something to happen.

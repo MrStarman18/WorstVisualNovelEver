@@ -5,7 +5,7 @@ public partial class game_state : Node
 {
 	int[] timesHungout = new int[7];	// by character.
 	string curScene = "s0";	// load starting event
-	//string curScene = "h30";	// load specific event
+	//string curScene = "s2";	// load specific event
 	int curDay = 0;			// What day is this? (out of 3)
 	int curHangout = 0;		// What hangout of the day is this? (out of 2)
 	
@@ -31,7 +31,10 @@ public partial class game_state : Node
 			timesHungout[character]++;
 			if (curDay > 0 && curHangout < 1)	// choose your second hangout yay!
 			{
-				curScene = "sSelect";			
+				if (curDay > 1 && timesHungout[6] > 0)		// can hang with the textbox if you did its first interaction
+					curScene = "sSelectT";
+				else
+					curScene = "sSelect";			
 				curHangout++;
 			}
 			else								// on to the next day...

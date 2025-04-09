@@ -64,12 +64,14 @@ public partial class cutscene : Node2D
 			int curChar = (int)((scene[1]) - '0');
 			if (curChar == 5)										// Random guy image
 				character.Texture = (guyImages[(int) (rand.Next() % 7)]);
-			else
-				character.Texture = (characterImages[curChar]);		// Who are we hanging out with?
-				
-			float x_scale = character.Texture.GetWidth(), y_scale = character.Texture.GetHeight();
-			character.Scale = new Vector2(600/x_scale, 500/y_scale);
-			character.Visible = true;
+			else if (curChar != 6)
+				character.Texture = (characterImages[curChar]);		// No image for textbox hangout
+			if (curChar != 6)
+			{
+				float x_scale = character.Texture.GetWidth(), y_scale = character.Texture.GetHeight();
+				character.Scale = new Vector2(600/x_scale, 500/y_scale);
+				character.Visible = true;
+			}	
 			
 			music.Stream = hangoutMusic[curChar];
 			music.Play();
