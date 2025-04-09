@@ -40,4 +40,62 @@ System: Hangout 2.
 do gameState.ToNextScene(-1)
 => END
 
+~ h20
+System: Hangout 0.
+do gameState.ToNextScene(-1)
+=> END
 
+~ h21
+System: Hangout 1.
+do gameState.ToNextScene(-1)
+=> END
+
+~ h22
+System: Hangout 2.
+do gameState.ToNextScene(-1)
+=> END
+
+~ h30
+System: Hangout 0.
+do gameState.ToNextScene(-1)
+=> END
+
+~ h31
+System: Hangout 1.
+do gameState.ToNextScene(-1)
+=> END
+
+~ h32
+System: Hangout 2.
+do gameState.ToNextScene(-1)
+=> END
+
+~ h40
+System: Hangout 0.
+do gameState.ToNextScene(-1)
+=> END
+
+~ h41
+System: Hangout 1.
+do gameState.ToNextScene(-1)
+=> END
+
+~ h42
+System: Hangout 2.
+do gameState.ToNextScene(-1)
+=> END
+
+~ h50
+System: Hangout 0.
+do gameState.ToNextScene(-1)
+=> END
+
+~ h51
+System: Hangout 1.
+do gameState.ToNextScene(-1)
+=> END
+
+~ h52
+System: Hangout 2.
+do gameState.ToNextScene(-1)
+=> END

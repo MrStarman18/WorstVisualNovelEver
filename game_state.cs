@@ -4,7 +4,8 @@ using System;
 public partial class game_state : Node
 {
 	int[] timesHungout = new int[7];	// by character.
-	string curScene = "s0";
+	string curScene = "s0";	// load starting event
+	//string curScene = "h30";	// load specific event
 	int curDay = 0;			// What day is this? (out of 3)
 	int curHangout = 0;		// What hangout of the day is this? (out of 2)
 	
