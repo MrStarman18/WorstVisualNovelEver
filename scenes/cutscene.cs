@@ -13,7 +13,7 @@ public partial class cutscene : Node2D
 	Texture2D[] characterImages = new Texture2D[6]{
 		GD.Load("res://art/Man1.jpg") as Texture2D,
 		GD.Load("res://art/tumblr_sexyman.png") as Texture2D,
-		GD.Load("res://art/Man3.jpg") as Texture2D,
+		GD.Load("res://art/DiscordMod.jpg") as Texture2D,
 		GD.Load("res://art/Man4.jpg") as Texture2D,
 		GD.Load("res://art/DILF.png") as Texture2D,
 		GD.Load("res://art/Man6.jpg") as Texture2D
@@ -28,10 +28,10 @@ public partial class cutscene : Node2D
 		GD.Load("res://art/Man7.jpg") as Texture2D
 	};
 	AudioStream[] hangoutMusic = new AudioStream[7]{
+		GD.Load("res://audio/Character 4 (Car) Main Theme.wav") as AudioStream,
 		GD.Load("res://audio/Character 1 (Tmblr Man).mp3") as AudioStream,
 		GD.Load("res://audio/Character 2 (Discord Mod).wav") as AudioStream,
 		GD.Load("res://audio/Character 3 (furrybait character avery girl) (stolen royalty free youtube music edited and cursed).mp3") as AudioStream,
-		GD.Load("res://audio/Character 4 (Car) Main Theme.wav") as AudioStream,
 		GD.Load("res://audio/Character 5 (CowboyDILF).wav") as AudioStream,
 		GD.Load("res://audio/Character 6 (Normal Guy).wav") as AudioStream,
 		GD.Load("res://audio/Character 7 (TextBox).wav") as AudioStream

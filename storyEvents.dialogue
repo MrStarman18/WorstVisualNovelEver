@@ -35,6 +35,31 @@ Y/N: Who should I talk to?
 	do gameState.ToNextScene(5)
 => END
 
+~ sSelectT
+Y/N: Who should I talk to?
+- Car With Googly Eyes
+	Y/N: I'll talk to the car.
+	do gameState.ToNextScene(0)
+- Tumblr Sexyman
+	Y/N: I'll talk to Tumblr Sexyman.
+	do gameState.ToNextScene(1)
+- Discord Mod
+	Y/N: I'll talk to Discord Mod.
+	do gameState.ToNextScene(2)
+- Preppy Furry
+	Y/N: I'll talk to Preppy Furry.
+	do gameState.ToNextScene(3)
+- Anime Werewolf Tiktok Biker DILF
+	Y/N: I'll talk to Anime Werewolf Tiktok Biker DILF.
+	do gameState.ToNextScene(4)
+- Normal Man
+	Y/N: I'll talk to the guy.
+	do gameState.ToNextScene(5)
+- 
+	Y/N: I'll talk to .
+	do gameState.ToNextScene(6)
+=> END
+
 ~ s0
 -:  You sit politely in your seat, looking out of the airplane window.
 Y/N:  I can’t believe I’m finally on my way to my new school, Monster’s University!
@@ -113,7 +138,7 @@ do ExitGame()
 Y/N: The third day came. 
 Car: Y/N! I want you CAR-nally! Please fill my exhaust pipe before the world ends!
 Y/N: YIPPEE!!!
-Y/N: I inserted my cylinder into the car's exhaust pipe.
+Y/N: I inserted my cylinder into the P13TR-Y's exhaust pipe.
 Y/N: ...
 Y/N: The car was still running! I got third degree burns on my cylinder!
 Y/N: I screamed and ran into the ocean.

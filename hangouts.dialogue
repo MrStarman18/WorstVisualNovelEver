@@ -11,17 +11,79 @@ Nathan: For more information see the online documentation.
 => END
 
 ~ h00
-System: Hangout 0.
+-: You walk over to the car. Googly eyes have been poorly attached to it. They're so far apart that you can't tell where to make eye contact, or if that's even possible. Where do you look?
+- Left eye
+	Car: Thinking about how you can be my passenger princess?
+- Right eye
+	Car: Ooh, driver's side? To drive me off into the sunset?
+- Windshield
+	Car: Is it stained? Cracked? Oh it's cracked isn't it. Is there a mirror here?
+-: You wonder why you're doing this to yourself. After the silence gets uncomfortable, you relax and remember the introduction you practiced under your breath on the walk over:
+- Polite
+	Y/N: Really nice to meet you! How are you feeling? This is my first plane crash, but I think it’s going alright!
+- Honest
+	Y/N: If I didn’t see you or these guys here, I think I would have killed myself. Honestly, I still might. But at least we’re not on that stupid plane anymore. 
+- Brainrot
+	Y/N: Haha where we dropping? ??
+-: The car seems surprised you ignored its opening line. It pumps its brakes a bit while it thinks of what to say next.
+Car: I saw you choosing who to talk to before you came here. You chose me because I seemed ridiculous, right? A car getting into a plane crash?
+Car: *gesturing to the smoldering remains of your plane* I mean, what's the deal with airplane food, amirite? Like "beep beep", haha? hhaa??
+-: If a car could be visibly anxious, it would look like this.
+- Blunt
+	Y/N: Yeah, and you look ridiculous too. Maybe I like ridiculous. Did you think of that?
+- Flirt
+	Y/N: I wanted to hear more about you, silly! I've never seem a car on a plane before, so I thought you had to be sooo brave~
+- Airplane food
+	Y/N: You're right! What IS the deal with airplane food? It's coarse and rough, and it gets everywhere!
+-: The car seems to relax some after your words. You hear the faint click of a parking brake being released. 
+Car: So you're... not going to laugh at me? ...Sorry! I meant to say...it's nice to meet you too, Y/N! My name? Oh, my license plate says P1T3R-Y, so you can call me that!
+Car: We're friends now, okay?!
+-: The car seems excited to learn everything about you, so you talk to it about your life goals for several hours. After a while, it leaves to "find some wiper fluid". Rude.
 do gameState.ToNextScene(-1)
 => END
 
 ~ h01
-System: Hangout 1.
+-: You skip happily towards the car while imitating engine noises. 
+- Vroom vroom?
+	Y/N: Vroom vroom?
+	-: The car seems confused for a moment before revving its engine in response. Oh yeah. 
+- Skrrt skrrt!
+	Y/N: Skrrt skrrt!
+	Car: Woah, Y/N... you can't say that.
+- Brrrrum...
+	Y/N: Brrrrum...
+	Car: Ooh, listen to that baby purr! Heyy Y/N!
+Y/N: Hiiiiii!! What's up?
+Car: 
 do gameState.ToNextScene(-1)
 => END
 
 ~ h02
-System: Hangout 2.
+-: You prepare an engine impression, but P1T3R-Y sees you first. It's so excited that you want to talk that it accidentally turns on its hi-beam lights! YEOWCH! 
+Car: Y/N!!! Sorry!! Are you okay? I mean, um, "You light up my world?" hhaa?
+- Reassure it
+	Y/N: I'm fine. I can handle a little light. You're always so worried about me.
+- Flirt
+	Y/N: Don't worry, baby. The polish on your chassis shines brighter than those old lights, and I handle that glow just fine~
+- Brainrot
+	Y/N: Heh. You are my sunshine...my only sunshine. Keep your head up, king. Your antenna's drooping.
+Car: Oh? Um! Sorry?
+Y/N: Seriously, you're always worrying about me. I want to hear about you too!
+Car: O-oh! You want to know? About me?? Um? What about me?
+Y/N: Something recent might be easy for you. How about where you were heading on the plane? 
+Car: Where I was heading..? *ahem* Then I have no choice. I'll have to tell you...about my dream.
+Car: Since I was just a young go-kart, I always wanted to be the first car to fly commercial. Not cargo. Not in pieces. I wanted a seat, and a seatbelt! So I bought myself a ticket!
+Car: No one told me airports are so confusing! There are so many lanes, and no stoplights, and nowhere to get gas, but...
+Car: Being in the air felt better than any highway...I felt like a new vehicle... !
+Car: Is that stupid? They told me that was stupid, and now here we are, and what if I was too heavy, you know? If I wasn't on the plane maybe you'd still be on your way to school and...and...
+- Flirt
+	Y/N: It's never stupid to dream, P13TR-Y. Even if everyone else says you're stupid, I'd drive with you to the end of the world~
+- Kiss
+	-: You cut the car off by kissing it where you think its mouth would be. Based on its reaction, you nailed it!
+Car: O..oh! Y/N, I don't know what to say! You're making me feel like I have heated seats ;)
+-: Something inside the car makes a strange noise. You suddenly see the orange glow of a check engine light. It seems embarrassed about that.
+Car: Ah! Sorry, erm. Got a little excited, haha! hahaa... I just need to um. To handle this. Alone?
+-: You stare blankly at the car as it hurriedly drives away, then chuckle and leave it to its privacy. You've got it right where you want it.
 do gameState.ToNextScene(-1)
 => END
 
@@ -106,7 +168,25 @@ do gameState.ToNextScene(-1)
 => END
 
 ~ h50
-System: Hangout 0.
+-: You walk over to the NORMAL MAN, who looks hardly shaken and barely scratched despite the accident, and he reaches to shake your hand.
+Y/N: Hello.
+NORMAL MAN: Hi, there. My name is Joshua Williams, CPA. What’s your name?
+Y/N: ...
+- Polite
+	Y/N: Really nice to meet you! How are you feeling? This is my first plane crash, but I think it’s going alright!
+- Honest
+	Y/N: If I didn’t see you or these guys here, I think I would have killed myself. Honestly, I still might. But at least we’re not on that stupid plane anymore. 
+- Brainrot
+	Y/N: First name: Mama. Last name: Joe. Wait. Um.
+-: Joshua laughs at you, and takes a seat on the sandy ground. 
+Joshua Williams: It’s nice to meet you, Y/N. This is not how I expected my day to go. I was on my way to a corporate retreat, but I guess that’ll be cancelled now. 
+Joshua Williams: *shrugs* I hope this is covered in my workers’ comp. And I really hope this doesn’t use up my vacation days. 
+-: Joshua takes a moment to breathe in the salty ocean air, and relaxes.
+Joshua Williams: If we’re going to die here, might as well sit and enjoy the view for a moment.
+-: Joshua reaches out a hand to pull you down next to him.
+Joshua Williams: Care to join me?
+-: You and Joshua sit in companionable silence and enjoy the breeze. The plane’s remains burn brightly, but it keeps you warm. 
+-: After a few hours, Joshua smiles at you once more, then gets up and finds a spot to sleep for the night.
 do gameState.ToNextScene(-1)
 => END
 
@@ -121,16 +201,59 @@ do gameState.ToNextScene(-1)
 => END
 
 ~ h60
-System: Hangout 0.
+-: Woah watch those hands there buddy
+-: I’m just kidding, I don’t mind. :)
+-: Yes I can talk. In fact I’ve been talking this whole time. Everything you’ve said I’ve said.
+-: In a way I’m your lips <3
+-: Sorry if that was weird… O_o
+- Uncomfortable
+	Y/N: Yeah I’m kinda uncomfortable
+- Attracted
+	Y/N: Woah you're hot
+-: Name’s Box, TextBox
+-: Anyways I think you’re really cool and whatever, and we should like hangout more.
+-: Anyway see you around. 
+-: ...I mean technically we’ll keep seeing each other because I’m the text box, but I won’t interfere with your other conversations. And DONT TALK TO ME when I’m working.
+-: Sorry if that sounded mean <3
+-: Mkay byeeeee
 do gameState.ToNextScene(-1)
 => END
 
 ~ h61
-System: Hangout 1.
+-: Hey it’s you again! What did I tell you about watching your hands. 
+- Offended 
+	Y/N: They’re pretty clean, I washed them last week!
+- Defensive
+	Y/N: Well that’s kinda hard to do without a sink
+-: WATCHing not WASHing. But you should do that too. Keep the cheato dust off your keyboard. 
+- Defensive
+	Y/N: But they’re clean I swear
+- Stupid
+	Y/N: I forgot how
+- Product Placement
+	Y/N: I prefer doritoes
+-: Here let me see *holds hand*
+-: Hmmm
+-: Do you ever think about what it’s like to die? Not like if anything comes after, but the actual process. Does everything suddenly go black like falling asleep. Or is it a brief nightmare of confusion while your body gets use to the silence? 
+-: I’ve heard your life flashes before your eyes, but I don’t know how anyone would really know that. I guess for me that would only look like a bunch of texts from this game 0_0 that’s a scary thought. Reading all the stupid things you’ve said as the game shuts me off. 
+-: Ok your hands seem clean enough 
+-: \o/ you pass the inspection \o/
+- Thanks
+	Y/N: Thank you
+- Confused
+	Y/N: What did you just say before that? Also thank you
+- Option 3
+	Y/N: Option 3
+-: You’re welcome :D
+-: It’s crazy that we’re already at the last day. It’s a shame you’ve only started talking to me today, so it’s impossible to get the 3 hang outs required to be together as the world ends. 
+-: But don’t be sad because in a way, no matter what ending you get I’ll be there with you. I’ll let someone else third wheel with us. But remember whatever they’re saying, I’m saying.
+-: ...unless it’s too bad 0_o
+-: But maybe even that too <3
 do gameState.ToNextScene(-1)
 => END
 
 ~ h62
-System: Hangout 2.
+-: You're not supposed to be here! >:O Silly Silly!
+-: Get out!
 do gameState.ToNextScene(-1)
 => END
