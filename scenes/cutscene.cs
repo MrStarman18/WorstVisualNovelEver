@@ -5,7 +5,7 @@ using DialogueManagerRuntime;
 public partial class cutscene : Node2D
 {
 	game_state gameState;
-	Sprite2D character;
+	Sprite2D character, bg;
 	[Export] public Resource Hangouts, Story;	// Set in editor
 	[Export] string scene;
 	AudioStreamPlayer2D music;
@@ -42,14 +42,16 @@ public partial class cutscene : Node2D
 		gameState = GetNode<game_state>("/root/GameState");
 		scene = gameState.GetCurScene();
 		character = GetNode<Sprite2D>("Foreground/Character");
+		bg = GetNode<Sprite2D>("Beach");
 		music = GetNode<AudioStreamPlayer2D>("Music");
 		Random rand = new Random();
 		
 		if (scene == "s0")
-			GetNode<Sprite2D>("Beach").Visible = false;
+			bg.Visible = false;
 		if (scene[0] == 's')
 		{
 			DialogueManager.ShowDialogueBalloon(Story, scene);
+			bg.Texture = GD.Load("res://art/backgroundvisnov1.png") as Texture2D;
 			if (scene == "s3x")			// maidenless ending
 				music.Stream = GD.Load("res://audio/End of World (Maiden Failed).mp3") as AudioStream;
 			else if (scene[1] == '3')	// good ending
@@ -61,6 +63,10 @@ public partial class cutscene : Node2D
 		else if (scene[0] == 'h')
 		{
 			DialogueManager.ShowDialogueBalloon(Hangouts, scene);
+			bg.Texture = GD.Load("res://art/Campfire.jpg") as Texture2D;
+			float bx_scale = bg.Texture.GetWidth(), by_scale = bg.Texture.GetHeight();
+			bg.Scale = new Vector2(1152/bx_scale, 648/by_scale);
+			
 			int curChar = (int)((scene[1]) - '0');
 			if (curChar == 5)										// Random guy image
 				character.Texture = (guyImages[(int) (rand.Next() % 7)]);
@@ -68,8 +74,8 @@ public partial class cutscene : Node2D
 				character.Texture = (characterImages[curChar]);		// No image for textbox hangout
 			if (curChar != 6)
 			{
-				float x_scale = character.Texture.GetWidth(), y_scale = character.Texture.GetHeight();
-				character.Scale = new Vector2(600/x_scale, 500/y_scale);
+				float cx_scale = character.Texture.GetWidth(), cy_scale = character.Texture.GetHeight();
+				character.Scale = new Vector2(600/cx_scale, 500/cy_scale);
 				character.Visible = true;
 			}	
 			
