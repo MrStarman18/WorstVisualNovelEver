@@ -11,10 +11,10 @@ public partial class cutscene : Node2D
 	AudioStreamPlayer2D music;
 	
 	Texture2D[] characterImages = new Texture2D[6]{
-		GD.Load("res://art/Man1.jpg") as Texture2D,
+		GD.Load("res://art/CarwEyes.png") as Texture2D,
 		GD.Load("res://art/tumblr_sexyman.png") as Texture2D,
 		GD.Load("res://art/DiscordMod.jpg") as Texture2D,
-		GD.Load("res://art/Man4.jpg") as Texture2D,
+		GD.Load("res://art/Furry.jpg") as Texture2D,
 		GD.Load("res://art/DILF.png") as Texture2D,
 		GD.Load("res://art/Man6.jpg") as Texture2D
 	};
@@ -109,6 +109,11 @@ public partial class cutscene : Node2D
 		
 	}
 	public void HidePlane() { GetNode<Sprite2D>("Plane").Visible = false; }
+	public void ToBlack() {
+		AnimatedSprite2D fade = GetNode<AnimatedSprite2D>("Foreground/Fade");
+		fade.Visible = true;
+		fade.Play();
+	}
 }
 
 

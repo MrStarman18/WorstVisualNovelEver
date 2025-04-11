@@ -95,6 +95,7 @@ Y/N: I can get to know these guys. They all look like they want me kinda bad lol
 => sSelect
 
 ~ s1
+-: You wake up feeling disoriented, but also with a secondary feeling of determination. 
 -: Sitting all by your lonesome, you realize you are not going to survive without getting close to someone. Loneliness is a killer! 
 -: You must make the most of every day, and increase your chances of finding a connection! How are you feeling?
 - Optimistic
@@ -135,26 +136,151 @@ do ExitGame()
 
 ~ s30	
 # Bitch: The car!
-Y/N: The third day came. 
+-: The third day came. Over the horizon, you hear the purr of a familiar engine... 
 Car: Y/N! I want you CAR-nally! Please fill my exhaust pipe before the world ends!
 Y/N: YIPPEE!!!
-Y/N: I inserted my cylinder into the P13TR-Y's exhaust pipe.
-Y/N: ...
-Y/N: The car was still running! I got third degree burns on my cylinder!
-Y/N: I screamed and ran into the ocean.
-Y/N: When I turned around, the island was gone.
+-: I insert my cylinder into the P13TR-Y's exhaust pipe.
+-: ...
+-: The car was still running! You got third degree burns on my cylinder! You scream and run into the ocean.
+-: The cool waters are soothing on your cylinder. But when you turn around, the island is gone!
+do ToBlack()
 Y/N: Great, I guess I'm drowning then. This sucks.
 do ExitGame()
 => EXIT
 
 ~ s31	
-# No bitches.
-Y/N: The third day came. 
-Option 2: I am Option 2. Yes that is my government name.
-Y/N: You're #1 in my heart!
-Y/N: ...
-Y/N: We had sex. It was kinda mid to be honest. 
-Y/N: It was so mid that I died actually.
-Y/N: I wonder what happens after death?
+# Bitch: Tumblr Sexyman
+Y/N: The third day is here! I wonder if I'll see--
+-: Suddenly, you feel a presence looming behind you. A chill runs down your spine; you've never felt such raw malice in your entire life.
+do ToBlack()
+-: Your vision goes black as your surroundings seem to shrink away in fear of the unknown entity behind you.
+-: You hear a stretching sound, like a snake unhinging its jaw. The sound continues for much, much longer than you're comfortable with.
+-: Then, icy cold breath whispers across your body, brushing against every skin cell, slicing cleanly through your clothes:
+Tumblr Sexyman?: We are Tumblr Sexyman.
+-: Still paralyzed from fear, you're helpless as the cold, seeps into your body. As the frostbite sets in, you're unable to feel anything.
+-: You lose the ability to breathe long before you find out what comes next.
+do ExitGame()
+=> EXIT
+
+~ s32
+# Bitch: Discord Mod!
+-: As you approach DM you see that they arranged a dozen rocks in rows each with a pink flower adorning their crowns. When they hear you, DM waddles towards you.* 
+Discord Mod: Errrmmm hi kitten. Meet my other kittens. They cannot resist my nitro power.  
+- Optimistic 
+	Y/N: Woah, no way, king! You’re so popular! I’m so jealous.  
+- Pessimistic 
+	Y/N:  *sigh*I knew you didn’t love me. I’m going to go hang myself now. *siiiiiiiigh* 
+- Brainrot 
+	Y/N: BOMBASTIC SIDE EYE! 
+-: DM’s patchy sunburned skin turns an even sicklier shade of white 
+Discord Mod: Wait no! I will ban them all for my radiant queen. 
+-: DM spins and begins kicking the small rocks scattering them all around. After such a chivalrous exertion DM drops to their knees puffing loudly and shaking* 
+Discord Mod: Eeerrmm, i-i-it is just so hard. 
+-: DM’s hands continue to shake.
+Discord Mod: I just can’t continue. It has been so so long since I last played World of Warcraft. Never has a knight endured such pain before. 
+-: DM curls up into a ball and shivvers.
+- Optimistic 
+	-: You throw yourself towards DM and wrap your arms around their quivering hulk.
+	Y/N: Noo, hush, don’t say that. I’m here for you. 
+- Pessimistic
+	-: Your eyes grow wide before you slowly curl up in a ball next to DM.
+	Y/N: We can just stay like this forever…. together. 
+- Brainrot 
+	Y/N: Like umm sigma, lemmi spread my rizz.
+	-: you begin dry humping DM’s shoulder
+-: DM looks up at you and giggles sounding exactly like Jabba the Hutt.
+Discord Mod: I can’t play WOW, but... Errm...eh...  can I play with you, kitten?
+-: DM draws you close as they unzip their pants.
+- Optimistic 
+	-: You grin sluttily knowing that for tonight at least you will not be maidenless. Before you give yourself to DM.
+- Pessimistic 
+	-: You follow DM’s lead and although you know love is a lie you know that tonight you will at least have fun.
+- Brainrot 
+	Y/N: HAWK TUAH, LEMMI SPIT ON THAT TANG. 
+do ToBlack()
+-: As DM draws you close they whisper "I’m never gonna give you up." They wrap around you tightly, smothering you in their weight!
+Discord Mod: Never... ever....
+-: You hear them faintly kek-ing to themself as it all fades to black.
+do ExitGame()
+=> EXIT
+
+~ s33
+# Bitch: Preppy Furry
+-: Midnight Skye comes bounding towards you at speeds!! such speed!! so fatst!!!!!
+Midnight Skye: Owo~! Hooomin, you’re not gonna be maidenless today. I’m right here, paw-some and fluffy, ready to be your end of the world partner. Awoo~ 
+Midnight Skye: I’ve got more rizz than you can handle, hoomin. You just gotta grab it, nyan~! (ive also got a lululemon sponsorship on the way) 
+- Paw-some!
+	Y/N: Ayo, this is it. Let’s make the world’s final moments paw-some—coconut water rain and ultimate furry chaos!’ 
+	Midnight Skye: *Giggles and ounces on you with an excited BARK* Owo~! Lets end it with a BANG Hoomin!!!!! This is gonna be the most furtastic and pawsome apoclypse ever! NO CAP NAYANNNN!!! 
+	Midnight Skye: Im so ready to get super rizzy with you :3
+- Full rizz mode!
+	Y/N: Yo, you’re right, Midnight Skye. Full rizz mode, coconut battles, and the best furry rave ever. I’m not going out without leaving an impression. 
+	-: Midnight Skye's eyes sparkle so kawiii, she grabs a coconut, smashes it open with her paw, and laughs in excitement.
+	Midnight Skye: Owo~! Rizz mode ON, hoomin! We’re taking this to the next level!!! Coconut battle time, and let’s finish with a paw-some kiss before everything goes kaboom. AWOOOOOO~ 
+- Full furry chaos!
+	Y/N: Alright, Mid. Full furry chaos. Let's dance, kiss, and live this day like it’s the last paw-some one we got. 
+	-: Her tail flicking furiously, she grabs you by the collar of your shirt and pulls you in with an intensity you didn’t expect!
+	Midnight Skye: Owo~! Awooo~! Let’s make this paw-some. I’m not letting you go maidenless today, hoomin. We’re gonna make this last moment rizz-tastic. Awoo~ 
+-: You close your eyes, and the next thing you know, Mid is pulling you in for a kiss. It's fast, wild, and a little bit chaotic—but hey, it's the end of the world. 
+do ToBlack()
+-: You kiss her like the rizz king you are, not holding back, and she melts into it, her tail wagging as she presses closer to you. 
+-: SUDDENLY OH NOOOO OMG OMG OMG NOOOO!!!!!!! THE WHOLE WORLD BURSTS INTO FLAMESSSSS!!!!!! YOU WATCH HORRIFIED AS THE FUR ON MID’S BODY STARTS TO MELT OFF HERSELF YOU REVEAL AN EXOSKELETON!!!!!! FIVE NIGHTS AT FREDDY’S REAL!?!?!?!?!?!?!?!?!??!?! 
+-: But you dont have time to think about that as a giant meteor strikes you down with a loud BOOOOM!!!!! RIP!!!!! At least you didnt die madenless tho hoomin ^-^
+do ExitGame()
+=> EXIT
+
+~  s34
+# Bitch: Anime tiktok DILF...whatevr
+-: You find Axel kneeling in front of twelve rocks, each with a tiny flower crown. He looks solemn, shirtless, and deeply unstable. 
+Axel: These are my followers now.
+-: He gestures to the rocks.
+Axel: They don’t unfollow when I overshare. They don’t swipe away from my vulnerable posts. They stay. 
+- Empathetic
+	Y/N: Honestly? Real. Loyal fan club only here. 
+- Lonely
+	Y/N: Rocks don’t talk back. That’s what makes them my friends. 
+- Jealous
+	Y/N: These rocks better not be sliding in your dms. I will throw these expeditiously furious hands with a pebble.
+-: Axel suddenly rises,and kicks the pebbles out of the circle. 
+Axel: But, you're the only one who matters. You. Not these rocks. 
+-: He collapses to his knees again, trembling. 
+Axel: It’s been a day since my last hit. No nicotine. No shrooms. No vape cloud to do O’s with. I haven’t posted in two days. I’m rotting, and not in a good way. 
+Axel: I tried to film a dramatic breakdown with the sunrise, but I got distracted crying. 
+- Confused
+	Y/N: You’re not alone. I’m here. I’ll be your vape. Or your follower, or your... nevermind. 
+- Empathetic
+	Y/N: We can rot together. Just don’t tag me. 
+- Lustful
+	Y/N: I’m about to climb on you like an Instagram caption in heat. Content warning: unhinged. 
+-: Axel looks up, eyes dilated, breathing heavy. 
+Axel: I can’t vape… But maybe I can ride this high.
+- Optimistic
+	Y/N: YAY! This is just what I needed, I love you, Axel. 
+- Pessimistic
+	Y/N: Ugh, well I guess you are the only nice one here. 
+- Brainrot
+	Y/N: THIS IS BETTER THAN WHEN I FOUND OUT SKIBIDI TOILET MYSTERY PLUSHES WERE SOLD AT TARGET!!! 
+-: Axel groans as he draws you close, his furry chest comforts you.
+Axel: I’m never gonna unfollow you. Not even if the vapes run dry.
+-: You close your eyes, your lips brushing his, and then suddenly—boom. It happens. Axel kisses you. It’s intense. Messy. You taste vape juice and trauma and just a hint of lavender essential oil. 
+-: But you don’t care. It’s the end of the world. 
+do ToBlack()
+-: You moan into his mouth—“a-are we mutuals now”—and he whimpers, “I’m gonna soft launch you.” You feel his tail curl up, and you get a rush of adrenaline. 
+-: BUT THEN NOOOOOOOO OMGGGGGGGGGG NOOOOOOOOOO!!!
+-: THE SKY SPLITS OPEN LIKE THOSE FAKE DOOMSDAY DEMONSTRATIONS FOR CLICKBAIT. THE ISLAND SHAKES. YOU LOOK DOWN AXEL ISN’T REAL?!? 
+-: HIS SKIN PEELS OFF REVEALING A CYBERNETIC INFLUENCER FRAME BUILT BY TIKTOK HQ. LIKE THAT ONE DISNEY MOVIE ‘HOW TO BUILD A BETTER BOY’ STARRING CHINA ANNE MCLAIN 
+-: A MASSIVE RING LIGHT DESCENDS FROM THE HEAVENS, BURNING THE OCEAN. YOU HEAR CHARLI D’AMELIO LAUGHING IN REVERSE. YOU TURN TO RUN BUT A METEOR STRIKES YOUR ENTIRE BODY—BOOOOOOOOMMMM!!!!! 
+-: YOU ARE REDUCED TO ATOMS.RIP BOZO!!!!! 
+do ExitGame()
+=> EXIT
+
+~ s35
+# Bitch: The Normal Man
+-: You sit on the shore and reflect, thinking of the conversations you had. You wonder what the day will bring, and if Joshua’s plan will come to fruition. The sound of the waves lapping against the shore lulls you to sleep.
+do ToBlack()
+-: You and the Normal Man are able to flag down his mother’s cruise ship, where they suspiciously only have room for two more passengers. You escape with the Normal Man, and return to your lives after a couple days full of pina coladas and sunshine. 
+-: You part ways with the Normal Man, and continue on your journey to Monsters’ University. The Normal Man comes to visit you a couple times every semester, and you introduce him to your dad. 
+-: You two stay in touch for a couple years, but ultimately, the Normal Man is set up with the child of another rich parent.  
+-: You Survived! Good Instincts, Y/N.
 do ExitGame()
 => EXIT

@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://dg40iv8ksqg2g"]
+[gd_scene load_steps=11 format=3 uid="uid://dg40iv8ksqg2g"]
 
 [ext_resource type="Script" path="res://scenes/cutscene.cs" id="1_b8a5j"]
 [ext_resource type="Resource" uid="uid://dxv1oit1ojfk5" path="res://hangouts.dialogue" id="2_ilkqp"]
@@ -6,6 +6,29 @@
 [ext_resource type="Texture2D" uid="uid://bwifsl4of3g8y" path="res://art/backgroundvisnov1.png" id="4_a7nd3"]
 [ext_resource type="Texture2D" uid="uid://dsb3ntlm4rms1" path="res://art/Man1.jpg" id="4_wtoes"]
 [ext_resource type="Texture2D" uid="uid://cosjvi67jrd6l" path="res://art/PlaneInside2.jpg" id="5_48h3i"]
+[ext_resource type="Texture2D" uid="uid://ouxlciegxotd" path="res://art/ToBlack1.png" id="5_66l3u"]
+[ext_resource type="Texture2D" uid="uid://bjaevvfp5havd" path="res://art/ToBlack2.png" id="6_tvg2d"]
+[ext_resource type="Texture2D" uid="uid://cu7xofw3fe3u3" path="res://art/ToBlack3.png" id="7_u4khc"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ofd7n"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_66l3u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_tvg2d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_u4khc")
+}],
+"loop": false,
+"name": &"default",
+"speed": 10.0
+}]
 
 [node name="cutscene" type="Node2D"]
 script = ExtResource("1_b8a5j")
@@ -20,6 +43,13 @@ visible = false
 position = Vector2(896, 255)
 scale = Vector2(0.417, 0.249)
 texture = ExtResource("4_wtoes")
+
+[node name="Fade" type="AnimatedSprite2D" parent="Foreground"]
+visible = false
+z_index = 2
+scale = Vector2(4.80833, 4.86667)
+sprite_frames = SubResource("SpriteFrames_ofd7n")
+centered = false
 
 [node name="Plane" type="Sprite2D" parent="."]
 z_index = -1

@@ -54,7 +54,36 @@ do gameState.ToNextScene(-1)
 	Y/N: Brrrrum...
 	Car: Ooh, listen to that baby purr! Heyy Y/N!
 Y/N: Hiiiiii!! What's up?
-Car: 
+Car: The sky, stupid! Look, that cloud there looks like a Ford F-150!
+-: You look up. You think you see the F-150 cloud, but it's blocked by eight clouds that spell out "GUL L IBL E" in the sky.
+- Lighthearted
+	Y/N: Haha! You got me, P1T3R-Y!
+- Pessimistic
+	Y/N: This is just like when mom died.
+- Brainrot
+	Y/N: Mods, can we kill this car?
+-: P1T3R-Y seems to be laughing at you? It rocks from side to side, its windshield wipers moving erratically.
+Car: Nothing like a good joke between friends! I learned that one from my friends back in Car College (Car-llege for short)!
+Car: Oh! Sorry about that! You were looking forward to going to college, right? I'm such an insensitive jerk. Sorry. Um?
+-: P1T3R-Y seems desperate to change the subject.
+- Optimistic
+	Y/N: Hey, no use crying over spilled...oil? We're here now.
+	-: He seems to appreciate you for using the car-friendly version of the saying.
+- Petty
+	Y/N: Yeah, I really was looking forward to starting college. How insensitive can you get?
+	Car: Sorry! Sorry! Um...
+Car: I've really been enjoying our time together, Y/N. You really know how to jumpstart a guy's battery, ahha. Sorry! Was that too much?
+- That was sweet
+	Y/N: I thought it was sweet, P1T3R-Y. But your battery's still got plenty of charge to shock my world ;)
+- That was too much
+	Y/N: Did you practice that one in your rearview mirror? You're better than this. 
+- Brainrot
+	Y/N: Okay Rizzler!! It's giving long, meaningful glances in the drive-in movie theatre~
+-: Awkward silence. 
+-: Unsure of what else to say, you attempt to break eye contact. But P1T3R-Y is parked so close to you that you can't look anywhere without meeting one of his eyes.
+Car: Oh, sorry! You want some space. I don't mean to park a semi truck in a compact space, as they say.
+Car: I'll leave you alone! Come and talk to me again, okay Y/N?
+-: You find the gesture endearing. You feel car-shaped butterflies flying around in your stomach and wonder if it's too late to put the feeling in reverse.
 do gameState.ToNextScene(-1)
 => END
 
@@ -88,42 +117,185 @@ do gameState.ToNextScene(-1)
 => END
 
 ~ h10
-System: Hangout 0.
+-: You take one step towards the tumblr sexyman. Suddenly, he's right in front of you!
+Tumblr Sexyman: I am Tumblr Sexyman.
+-: He sprints away. I guess some people...don't want to be bothered?
 do gameState.ToNextScene(-1)
 => END
 
 ~ h11
-System: Hangout 1.
+-: You take one step towards the tumblr sexyman, wincing as you brace for the jumpscare. It doesn't come. You're one step in front of where you started.
+-: From a distance, He looks at you like he's studying a unique specimen through binoculars. Bold, for him.
+Tumblr Sexyman: - -- ------ -------
+Y/N: (shouting) What?
+-: He seems to understand that you can't hear him, and suddenly he's right in front of you!
+Tumblr Sexyman: I am Tumblr Sexyman.
+-: He sprints away. When the shock of the encounter wears off, you laugh dryly to yourself.
 do gameState.ToNextScene(-1)
 => END
 
 ~ h12
-System: Hangout 2.
+-: You muster your delusions and approach the Tumblr sexyman one more time. Surely this time will be different.
+-: He makes no movements as you approach, but watches you like a prey animal watches a predator approach.
+-: When you get close, he leans down and whispers:
+Tumblr Sexyman: I am Tumblr Sexyman.
+-: He sprints away...again, but you feel like you've formed a connection.
+-: Your rizz sense tells you that the Tumblr Sexyman will be back and eating out of the palm of your hand like the caged animal he is.
 do gameState.ToNextScene(-1)
 => END
 
 ~ h20
-System: Hangout 0.
+-: You approach the Discord Mod. When you get close enough to speak, their colossal form completely blocks out the sun. 
+Discord Mod: Hello princess. Wanna scroll reddit together? 
+-: What shall you say to this pristine man? 
+- Optimistic
+	Y/N: I’d love to scroll reddit with you! 
+- Pessimistic
+	Y/N: Nah, Reddit is super cringe. 
+- Mean
+	Y/N: You're a freak!
+Discord Mod: Sorry, I’m too busy playing World of Warcraft. 
+Discord Mod: I’m totally cracked at this game rn, I’m in a middle of a match. I’ll get back to you kitten later on. 
+-: What shall you say to this pristine man? Maybe you should join his gamer gang? 
+- Hateful
+	Y/N: World of Warcraft sucks, that is some garbage. 
+	Discord Mod: Sorry, I’m too busy playing World of Warcraft. 
+- Questioning
+	Y/N: How are you playing World of Warcraft on a deserted island? 
+	Discord Mod: Sorry, I’m too busy playing World of Warcraft. 
+-: It seems that this man is too busy playing World of Warcraft at the moment. What should you do? 
+- Join in
+	-: You offer to join him in playing “World of Warcraft”.
+	Discord Mod: Sorry, I’m too busy play- You want to play World of Warcraft? With me? I’ll let you play next game, as I’m too busy playing World of Warcraft. 
+- Watch
+	-: You creep closer to watch him play “World of Warcraft” 
+	Discord Mod: Mods, I can’t believe I have one viewer with me right now. Can we get pogs in the chat? 
+- Call him fat 
+	Y/N: You're fat!
+	Discord Mod: That’s it you’re banned. Have a nice day. 
+-: You are getting nowhere with this man. 
 do gameState.ToNextScene(-1)
 => END
 
 ~ h21
-System: Hangout 1.
+-: You walk over to the lumbering behemoth that is the Discord Mod. They don't seem to be playing World of Warcraft this time.
+Discord Mod: Well met. Eermmm… The name’s Wick, Keanue deGrasse Wick. You gravitated towards the majestic knight of the group. Smart choice, kitten, you are a gentleman and a scholar.
+-: DM squints their beady eyes at you while they strikes a majestic pose that causes their massive belly to contort looking like a black hole 
+Discord Mod: So, how has archipelago life been treating you?  
+- Optimistic 
+	Y/N: OMG, I’ve been like loving it here. This is just what my tan needed. 
+- Pessimistic 
+	Y/N: *sigh* A bit of the plane cut my arm but I guess that’s fine because I was planning on cutting my wrists anyways. *siiiigh* 
+- Brainrot 
+	Y/N: LMTY, bro I just bopped open some fire coconuts and DRAINED those nuts for all the milk they had in them. 
+Discord Mod: Errmm, yeah, can’t relate. I was in the middle of watching only cinematic masterpiece that is John Wick 7. 
+-: DM adjusts their monocle before saying
+Discord Mod: Yeah, Ummm actUally, normies cannot comprehend the majesty of John Wick. It takes 200+ IQ to understand. Almost as much as Rick and Morty.
+- Optimistic 
+	Y/N: What no way, I just watched all 11 of John Wicks last week!!  
+- Pessimistic 
+	Y/N: I wish John Wick would kill me. *siiigh* 
+- Brainrot 
+	Y/N: Like umm yeah… ugh like skibity no. JW is such boomercore. 
+-: DM starts puffing like a steam engine and he looks around desperately and smacks his lips loudly 
+Discord Mod: Yo, can we get some Dew in here? I need a supply drop. I had a 16 pack of Dew but I downed them all in the last hour and now this shining knight is parched.
+- Optimistic 
+	Y/N: Don’t worry buddy, we are surrounded by trees, they have dew! 
+- Pessimistic 
+	Y/N: *siighh* Why don’t you go and lick those trees, they have dew. 
+- Brainrot 
+	Y/N: Yeah like umm y don’t u skibbity bop up to those trees and shake down those fools for their dew. 
+-: DM tries to straightens back up and looks down what little nose they have at you
+Discord Mod: Errmm don’t try that, pupil. I have insight 100. I’ma have to lay down a ban on you.  
+-: As DM scoots away you longingly at the two moons they have for an ass and you feel your heart summersalt with desire at this majestic knight
 do gameState.ToNextScene(-1)
 => END
 
 ~ h22
-System: Hangout 2.
+-: As you approach DM you see them trying to stack rocks to form some sort of pile
+Discord Mod: Oh, Errrmmm, hey kitten. I need to ban the normie pilot, this crash is ruining my hero’s journey. I just really miss my gamer chair. 
+-: DM tries to sit down on their pile of rocks that vaguely resembles a chair but it all crashes down beneath their monstrous posterior.
+- Optimistic 
+	Y/N: Oh no, don’t worry, I’ll help you build a new chair. I saw some palm branches over there! 
+- Pessimistic 
+	Y/N: Get used to pain Keanu, that is all life is. *siigh* 
+- Brainrot 
+	Y/N: Yeah like umm like that is the best chair in Ohio. 
+-: DM just sits on the ground looking longingly out at the ocean
+Discord Mod: Errmm I was actually supposed to be at a Waifu Pageant right now. All the finest gentlesirs in the land traveled across sea and land to gaze respectfully at the finest waifu’s in the kingdom. 
+-: *DM’s eyes start to mist over.
+- Optimistic 
+	Y/N: Maidens? What! Wow, no way, that is so exciting. I need to go too! 
+- Understanding 
+	Y/N: Love is short. Waifu bussy is eternal.  
+- Brainrot 
+	Y/N: Nocap? Waifus? Lemmi rizz up those females. I’ll get all up in their bussies. 
+-: DM shifts towards you and their eyes meet yours.
+Discord Mod: You are truly a man of culture. You got me right in the feels. Some men do not understand the true majesty of the waifu bussy. I have traveled across the seven seas for a glimpse of the flabby flesh of the thighs of the waifu. 
+-: DM looks you up and down
+Discord Mod: You know kitten, Errrmmm you would actually look radiant in striped thigh highs.
+- Optimistic 
+	-: You jump up with an astro grin and twirl around before kicking your long leg up into the air.
+	Y/N: You reeeeally think so Keanu??? 
+- Pessimistic 
+	Y/N: idk… I always cover my thighs because of all the cutting scars there are. But if you really think so…. 
+	-: You look up at DM before quickly looking away as you turn scarlet. 
+- Brainrot 
+	Y/N: Underrated comment. You dropped this king.
+	-: You say as you bend down, miming picking up a crown, making sure to expose your better side.
+-: Blood explodes from DM’s nose from raw horniness as they gaze longingly at you. 
+-: Suddenly a thundering sound erupts from DM’s stomach and DM turbo waddles away towards their secret stache of gamersupps.
 do gameState.ToNextScene(-1)
 => END
 
 ~ h30
-System: Hangout 0.
+-: You decide that the preppy furry is who you want to talk to! 
+-: She tilts her head, and starts to wag her tail
+Midnight Skye: Owo~! Hey, hoomin! My name’s Midnight Skye, but you can call me Mid for short. I’m really enjoying the vibes of this island, I'm going to turn it into a lululemon paradice! NAYYYAAA ^w^ 
+Midnight Skye: You look like youve seen better days, pupper. Are you okay, hoomin?  
+- Brainrot 
+	Y/N: Bro… what the actual skibidi gayat?!?!!? Is this a fever dream? Yo is this an anime or something? Am I about to be cursed by a furry? 
+	Midnight Skye: Oh Nyoooo 0.0 that would be terrible for by brand, how would i get my lululemon sponsorship by running my image. Plus casting spells is a sin! I ant about that life pupper! 
+	-: She wags her tail enthusiastically.
+	Midnight Skye: Plus your kinda cutie AWOOO Owo I could never hurt someone like you owo <3
+- Lost
+	Y/N: Ayo, we’re on an island? Im not tryna die maidenless on this island fam! 
+	Y/N: Ayo were on an isalnd? Im not tying to dy maidenless fam! The world is ending in thee days, and I need to survive this!!!!!!!!! 
+	-: She flicks her tail and giggles.
+	Midnight Skye: Owo`! Chill hoomin! We got 3 days aand ima make sure your not madenless when the world ends. Dont stress. Well just vibe, gather coconuts, and maybe find a cutie little shelter. 
+	Midnight Skye: You know like a furry airbnb situation. Ive got some supplies, but…. We gotta make it asteic 0.0! I need good pics for the gram, NAYANNNNNNNN!!!!
+- Challenge
+	 Y/N: Wait so like what are we supposed to do on this island? This is some furry survival chalance or nah? 
+	-: She tilits her head and scratches behind her ear with a paw.
+	Midnight Skye: HOOOOOMINNNNNNNN, this is no challenge. This is just survival 0.0. We gunna have a chill here ig. Like how could you not enjoy the apocalypse when you have like all this open space? 
+	Midnight Skye: Im thinking we get some coconuts, fund a comfy spot, and maybe just nap under the stars together 0wo~ Its gunna be bussin! Trust me AWOOOOOO!!!!! 
+-: You’ve survived Day 1 with Midnight Skye, and things are already getting a little wild. You’ve got the rizz game in play, but the world’s still ending soon. 
+-: Midnight Skyed's giving you all the furry survival tips, and it's up to you whether you go full chill mode or keep pushing to survive this chaotic island apocalypse. Tomorrow’s another day, hoomin. 
 do gameState.ToNextScene(-1)
 => END
 
 ~ h31
-System: Hangout 1.
+-: Midnight Skye notices you and trots over to you tail wagging viciously.
+Midnight Skye:  Owo~!!!! MORNING HOOMINNNN <3 You ready to tackle the day? I adjust finished my morning pupper stretches for when i get my Lululemon sponsored stretch challenge going! Im really good at downward dog ;) 
+Midnight Skye: YOU SHOULD JOIN ME ^-^ NAYANNNNNN~~~~~ I can teach you how to stretch like a pro!!!!Plus it might help you survive the apocalypse :3
+- Brainrot
+	Y/N: Wait, pupper stretches? Bro, are you telling me you can teach me to stretch like a wolf? That’s some next-level rizz. 
+	-: Midnight Skye smiles like shes about to teach a masterclass in flexing.
+	Midnight Skye: 0wO~! You bet I can hoomin!!!!!!!!!! You just need to stretch tour legs like you’re about to run from an apocalyptic chicken or something :3 
+	Midnight Skye: Its all about form babe Woof! You gotta get those pupper stretches right.Here, I’ll show you how to do the classic wolf stretch. It’s basically a purrfect way to get your inner wolf flowing... NAYN~ 0wo
+- Realistic	
+	Y/N: Yo, we gotta make a plan. The world's ending in two days, and I’m still tryna figure out how to survive this furry chaos. 
+	-: Midnight Skye pats your head in comfort -.- then she sits on the sand in front of you like shes about to lay out a strategy map.
+	Midnight Skye: Its gunna be ok HOOMIN! 0wo First off I wont let you die MAIDENLES- Thats a rule ^-^ 
+	Midnight Skye: Second your too cute to die alone ;) im already plotting out your fursona! We would be so KAWII DESU together! NAYAN 
+- WOOF WOOF WOOFBARK BARK BARK
+	Y/N: WOOF WOOF WOOF WOFF WOFF WOOF BARK BARK BARKBAKR BARK WOOF WOOF WOOF WOFF WOFF WOOF BARK BARK BARKBAKR BARK WOOF WOOF WOOF WOFF WOFF WOOF BARK BARK BARKBAKR BARK 
+	-: Her tail goes TURBO MODE wagging so fast you cant even see it!!
+	Midnight Skye: 0wo ~ HOOMIN I THOUGHT YOU WOULD NEVER ASK!!!!!!! 
+	Midnight Skye: WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF 
+	Midnight Skye: Thank you for taking the time to learn my language!!!! 
+	-: She tears up a little with joy. 
+-: You survived another interaction with Midnight Skye, and things are only getting weirder. The rizz is still strong, and now it’s up to you whether you keep pushing for future fursuit or just chill until the world ends. 
 do gameState.ToNextScene(-1)
 => END
 
@@ -137,12 +309,12 @@ do gameState.ToNextScene(-1)
 -: His tail flicks behind him as he tries to post his tiktoks on his phone.
 Axel: Yo, what’s up, pup? Didn’t think I’d be lucky enough to wake up crash-landed on a deserted island, but hey, my engagement is gonna soar, unlike we did! Haha. *winks*
 Y/N: ...
-- Polite
-	Y/N: Really nice to meet you! How are you feeling? This is my first plane crash, but I think it’s going alright!
+- Impressed
+	Y/N:  Whoa, your vibe is insane. But like, in a good way. You’ve got a main character's energy. This is kinda cool, not gonna lie. 
 - Honest
-	Y/N: If I didn’t see you or these guys here, I think I would have killed myself. Honestly, I still might. But at least we’re not on that stupid plane anymore. 
+	Y/N:  If I didn’t see you or these guys here, I think I would have died, but I don't know if I am comforted or concerned with whatever you seem to be. 
 - Brainrot
-	Y/N: stupid brainrot words
+	Y/N:  Uhm! The Rizzler title dethroned. You just out alpha’d me! 
 -: Axel , taking a break from doomscrolling and slipping it into his leather jacket. 
 Axel: Nice to meet ya, Y/N. You know, this ain't my first time havin a near death experience. Last time, it was a police chase on my hot rod because I got into a fist fight down at the rodeo.
 Axel: But hey, nothing gets the views booming on twitter than a good ole fist fight? Yeehaw!(Axel cracks his knuckles and grins)
@@ -158,12 +330,75 @@ do gameState.ToNextScene(-1)
 => END
 
 ~ h41
-System: Hangout 1.
+-: You approach the campfire where Axel stands shirtless, shadows dancing across his scars. He exhales a long drag from a vape playing Youtube Shorts. The mist curls in the air mixing with the hot campfire smoke.
+Axel: Oh. It’s you. Drawn to danger, huh? Must be fate. 
+-: He glances over his shoulder, lips curling into a smirk. 
+Axel: So tell me, pup. How’s this feral little island been treating that sweet little dopamine-starved brain of yours? 
+- Optimistic
+	Y/N: I’ve been loving it here! This is just what my tan and mental illness needed.
+- Pessimistic
+	Y/N: sigh, My eyeliner got thrown into the ocean as we fell, so I am doing horrible. 
+- Brainrot
+	Y/N: Bro is that Youtube Shorts! To think dry swallowing a Flintstones gummy was going to be the highlight of my day. 
+Axel: Tch. I was mid-post when we went down. 
+-: Axel flips his phone toward you—the cracked screen shows a paused TikTok captioned “healing after the betrayal” #boymath #feralera #breakup.” 
+Axel: It was gonna go viral. I felt it. The algorithm was aligning with my heartbreak arc.
+- Fangirl
+	Y/N: Wait no way, I saw that one! You were sobbing in a bathtub and the lighting was super like amazing. 
+- Pessimistic
+	Y/N: I relate. I tried to go viral crying in a graveyard once. No views. No love. 
+- Brainrot
+	Y/N: If your mental breakdown didn’t have a skibidi toilet in the background I do not think it would’ve gone far, just saying. 
+-:  He steps closer. His breath smells like artificial watermelon and pain. 
+Axel: I was this close to getting verified. And now I’m stuck here raw-dogging reality with no service and no serotonin. 
+-: Suddenly, Axel doubles over, clutching his stomach. He fumbles for a vape, finds it dead, and screams. 
+-: Suddenly, Axel stumbles, clutching his stomach. He grabs a small pouch from his belt and shakes it—empty. 	
+Axel: Sh*t. I’m out of gummies. I had a whole bag of edibles and two vapes in my saddlebag. Gone. I ripped them all during a TikTok livestream about wolf supremacy and now I’m fiending.
+- Optimistic
+	Y/N: Don’t worry king! There’s herbs here. Nature is your healer plug now. 
+- Pessimistic
+	Y/N: Just lick a rock, Axel. Maybe it’ll hallucinate you a new vape or kill you. 
+- Brainrot
+	Y/N: Go feral, babe. Eat a mushroom. Let the forest possess you and then possess all of amoung us sus. 
+	AXEL 
+-: He glares at you, nostrils flaring like a werewolf on probation. 
+Axel: Careful. I’m on the edge. You don’t want to see what happens when I detox. 
+-: He turns away, tail fluttering down near the ground like a sad puppy.
 do gameState.ToNextScene(-1)
 => END
 
 ~ h42
-System: Hangout 2.
+-: You find Axel hunched over a broken selfie stick and some sticks arranged in a sad pile that vaguely resembles a chair. He’s trying to pose dramatically on it—but it immediately collapses. 
+Axel: Ugh. This chair was gonna be the backdrop for my “day 1 without a vape” thirst trap. I was gonna caption it “hot, haunted, and healing.” 
+-: He stares into the abyss, visibly fighting tears. 
+- Helpful
+	Y/N: I’ll help you rebuild it! You deserve a place to get a million views.
+- Pessimistic
+	Y/N: Chairs break. People break. It’s the world’s cycle. 
+- Brainrot
+	Y/N: That chair’s giving trauma-core. 10/10 aesthetic. Would dissociate on it.
+-: Axel takes a shaky drag from a dead vape like it's a rosary.
+Axel: I was supposed to be at a creator retreat today. A collab house in Tulum. Neon bathtubs. Manifestation circles. Softboy influencers doing mushrooms in matching mesh shirts. 
+- Slay!!
+	Y/N: Stop, that sounds iconic. We would’ve slayed. Next time, I’ll be your plus-one. 
+- Pessimistic
+	Y/N: Collab house or crash site—either way, someone’s overdosing. 
+- Brainrot
+	Y/N: Bro I’d show up in fishnets and ruin marriages. Rizzing up every influencer with a multicolored ring light.
+-: Axel leans in, eyes glossy. 
+Axel: You’d look dangerous in an egirl outfit, heart eyeliner and a blush that was blinding. Like… you could ruin a person’s career with a single post.
+- Flirty
+	-: You twirl dramatically and pose.
+	Y/N: Axel, you sweet-talking menace, do you really think so?? 
+- Emo
+	Y/N: I usually go full goth and emo, so the blush would be a no, but do you think I could pull it off? 
+- Brainrot
+	Y/N: Babe. I’ve already got an anonymous Twitter alt just for thigh pics. Lemme leak ‘em. 
+-: Axel’s eyes glint with lust and emotional damage. His vape hisses like a snake in heat. He chokes on the cloud. 
+Axel: I need to find a leaf I can roll something in before I combust from the raw yearning.
+-: Axel bites his lip so hard he draws blood, then tips his hat to you. 
+Axel: I need to post something. Anything. Or I’ll cease to exist as the hottest cyclist, cowboy, furry, and tiktok boy. 
+-: He runs off, looking for service and the meaning of your interaction, or maybe just to reflect.
 do gameState.ToNextScene(-1)
 => END
 
@@ -191,12 +426,98 @@ do gameState.ToNextScene(-1)
 => END
 
 ~ h51
-System: Hangout 1.
+-: You walk over to Joshua Williams, the Normal Man, where he smiles at you and waves.  
+Normal Man: Hey there, Y/N! How are you feeling this morning? Enjoying day 2 of our accidental vacation?
+-: You step closer to him and say: 
+- Optimistic 
+	Y/N: Strangely… I am enjoying this! I’m loving getting to meet new people and enjoy some time on this beautiful island. How about yourself? 
+- Pessimistic 
+	Y/N: I guess it beats being at home with my dad. Ugh…how are you surviving? 
+- Brainrot 
+	Y/N: Lowkey wish I was watching Caseoh rn, but I guess I’m cooking on this island. You good?
+Normal Man: I’m doing well, thank you! Would you care to indulge me in a holistic, mind-centering yoga exercise?
+-: You watch as Joshua rolls out a yoga mat, and beckons you to stand on it with him. You join him on the yoga mat, and he puts his hands on your shoulders. 
+Normal Man: The therapist in my office has us do yoga sessions every week. I find it helps me ground myself when things get hectic. What do you think of self-care, Y/N?
+- Optimistic 
+	Y/N: I really enjoy taking care of myself! An important lesson my father told me is that you have to take care of yourself, before you can take care of others. I did a lot of self-care methods after my mom died. 
+	Y/N: When I looked online at the University I was traveling to, it seemed like they had a lot of mental health resources and lots of natural space to clear your mind. How’s your relationship with your parents? 
+- Pessimistic 
+	Y/N: Self-care is for uptight, entitled little losers who can’t get their shit together. My dad tried to make me do that stuff when my mom died, but I just blew it off. 
+	Y/N: I guess it’s fine if you do it, or whatever. Anyways, uh, are your parents freaks like mine? 
+- Brainrot 
+	Y/N: Erm, what the sigma? That sounds like a beta activity to me, but you seem like an alpha, so I guess it’s okay. 
+	Y/N: My fam squad used to take me on yap sessions in the park, but now they’re AFK. How are your boomers?
+Normal Man: Oh, I haven’t seen them in a minute! I sure do miss my mom. She’s the one that got me this job! I’m what you might call a “nepotism baby,” but I try not to let that affect my life. 
+Normal Man: My mom is actually on a yacht right now, sailing on her third cruise of this year. Money’s been tight this year, I guess. 
+-: The Normal Man pauses.
+Normal Man: But listen, Y/N… don’t tell anyone I told you this. (he whispers) I opened the door while we were on the plane, and I threw a bag of peanuts into the engine, because I heard that if the plane malfunctions they pay you BIG TIME. 
+Normal Man: And my family has really good lawyers. 
+Normal Man: I’m afraid… I may be responsible for the crash. I hope you don’t hate me, and that those 77 dead passengers don’t come back to haunt me. Anyways. It’s been fun getting to know you a little more, Y/N. 
+-: You take a moment to ponder Joshua’s admission of guilt, but decide not to think about it too hard. You smile up at the Normal Man, and he smiles in return. 
+-: The Normal Man squeezes your shoulder, and walks off.  
+-: You feel a couple butterflies try to escape your stomach, and you attribute that feeling to the Normal Man. Hmmm. Maybe you won’t be maidenless all that much longer.
+-:  You pass a couple hours by looking out towards the ocean, thinking of your family and the life you’re missing at Monsters’ University. 
+-: You munch on a couple of plane snacks you recovered from the crash, and check your surroundings again. It seems like the perfect opportunity to hang out with one of the survivors. 
 do gameState.ToNextScene(-1)
 => END
 
 ~ h52
-System: Hangout 2.
+-: You walk over to the Normal Man, who is warming his hands over the fire pit. He looks handsome in the firelight. Something appears to be troubling him. Maybe you can get to the bottom of what’s upsetting him.
+Normal Man: Hey, Y/N.  
+-: He looks at you solemnly, and then looks back down at the fire pit. 
+-: You walk over to him, and put a hand on his shoulder. Yo look him in the eyes and say: 
+- Optimistic 
+	Y/N: You ok, Joshua? I know things are looking grim, but it’ll all work out, I hope. (you pat his shoulder reassuringly) 
+- Pessimistic 
+	Y/N: Hey man, if you want to make a suicide pact, just let me know. But if not, like, I understand. (you shrug) 
+- Brainrot 
+	Y/N: You good, fam? Opps got you down? (you hit the griddy)
+Normal Man: Y/N… (he pauses for a beat) Do you ever feel like you’re not enough? Oh! Sorry to put this on you… 
+-: Normal Man meets your gaze with an embarrassed smile, but doesn’t look away. You squeeze closer to him and say: 
+- Optimistic 
+	Y/N: Yeah, I feel like that sometimes. It’s hard to stay positive in everyday life. What’s troubling you? Anything I can help with? 
+- Pessimistic 
+	Y/N: Oh, all the time. Nothing I do is ever good enough, at least not for my dad. He wants me to like, leave the house everyday and not buy cigarettes. What a prick. But uh, what’s up with you?  
+- Brainrot
+	Y/N: Yeah, dog. The grindset feels impossible some days. Have you tried rest-maxxing, perchance?
+Normal Man: It’s just that my mom is out there, only on her third cruise of the year. I don’t make enough to support her, and I’m afraid I never will. We had to sell one of our vacation homes this year, and it really took a toll on her. 
+Normal Man: If I never get off this island, we’ll probably never go to Cabo again!  
+-: Several fat tears roll down Joshua’s face, and you pull him into a hug. You and the Normal Man hug for a moment, before Joshua pulls away to look at you.  
+Normal Man: Thank you, Y/N. I needed that.
+-: Your face is merely inches away from Joshua’s. His cheeks are tearstained, but he smiles at you, with obvious warmth in his expression. Kiss him? 
+- Kiss Him
+	=> kissMan
+- Pull Away
+	=> noKissMan
+
+do gameState.ToNextScene(-1)
+=> END
+
+~ kissMan
+-: You lean in for a kiss, and Joshua returns it! Afterward, you say:
+- Optimistic 
+	Y/N: (kiss him) Of course, Joshua. You deserve it. 
+- Pessimistic 
+	Y/N: (kiss him) F*ck yes. I think you get me, Joshua. 
+- Brainrot 
+	Y/N: (kiss him) Your aura level was so high, brother. Rizz off the charts. 
+Normal Man: Oh, Y/N. I’m so glad you’re here with me.  
+-: You and the Normal Man stand with your foreheads pressed together for a moment. This feels right. Something about this makes you feel like maybe you will make it off this island. The Normal Man pulls back, and cups your face with his hand.  
+Normal Man: Y/N… I wasn’t gonna share this with anyone but… I think we can maybe get off this island. You know that cruise ship that my mom is on? I think I can signal the boat, and we can escape. Let me know later if you want to try that with me. 
+Normal Man: Goodbye for now, Y/N.
+-: The Normal Man walks off, and you are left alone once more.
+do gameState.ToNextScene(-1)
+=> END
+~ noKissMan
+-: You pull away from Joshua, saying:
+- Optimistic 
+	Y/N: (pull away) Of course, Joshua. I’m gonna head out, but I hope you’re feeling better. 
+- Pessimistic 
+	Y/N: (pull away) Yeah, man. Well, just so you know, it can’t get much worse than this. Hope that helps. Bye. 
+- Brainrot 
+	Y/N: (pull away) Bomboclaat! I’m gonna dip, but I’ll see you around. 
+Normal Man: Goodbye, Y/N.
+-: The Normal Man walks off, and you are left alone once more.
 do gameState.ToNextScene(-1)
 => END
 
