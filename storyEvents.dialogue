@@ -55,8 +55,8 @@ Y/N: Who should I talk to?
 - Normal Man
 	Y/N: I'll talk to the guy.
 	do gameState.ToNextScene(5)
-- 
-	Y/N: I'll talk to .
+- -
+	Y/N: I'll talk to    .
 	do gameState.ToNextScene(6)
 => END
 
@@ -114,13 +114,13 @@ Y/N: Anyway, the world ends in 2 days. No time to sit around thinking. I have ma
 Y/N : I hope that-- Wait, who's talking to me?
 -: Gee, I'd love to tell you...but only if you spend time with me instead of those other guys >:3
 -: So, what do you say?
-- Spend time with -
-	-: Yay!! Yay!! *glomps*
-	do gameState.ToNextScene(6)
-- Hang out with someone else
-	-: I see.. Another has stolen your heart? Then I'll be right here...totally not watching you ;3
-Y/N: That was weird. Anyway, the world ends tomorrow. Better seal the deal before I end up maidenless.
-=> sSelect
+#- Spend time with -
+#	-: Yay!! Yay!! *glomps*
+#	do gameState.ToNextScene(6)
+#- Hang out with someone else
+#	-: I see.. Another has stolen your heart? Then I'll be right here...totally not watching you ;3
+#Y/N: That was weird. Anyway, the world ends tomorrow. Better seal the deal before I end up maidenless.
+=> sSelectT
 
 # Endings
 ~ s3x	
@@ -141,7 +141,7 @@ Car: Y/N! I want you CAR-nally! Please fill my exhaust pipe before the world end
 Y/N: YIPPEE!!!
 -: I insert my cylinder into the P13TR-Y's exhaust pipe.
 -: ...
--: The car was still running! You got third degree burns on my cylinder! You scream and run into the ocean.
+-: The car was still running! You got third degree burns on your cylinder! You scream and run into the ocean.
 -: The cool waters are soothing on your cylinder. But when you turn around, the island is gone!
 do ToBlack()
 Y/N: Great, I guess I'm drowning then. This sucks.
